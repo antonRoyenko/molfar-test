@@ -1,0 +1,42 @@
+.slider {
+    height: 100vh;
+
+    #carouselMain {
+      height: 100%;
+
+    .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+
+      .carousel-item {
+        height: 100%;
+        background-position: center 0;
+        background-repeat: no-repeat;
+        display: block;
+        transition: all ease 1s;
+        position: absolute;
+        -webkit-transform: scale(1.8);
+        -moz-transform: scale(1.8);
+        -o-transform: scale(1.8);
+        transform: scale(1.8);
+        opacity: 0;
+        visibility: hidden;
+
+        img {
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+      .carousel-item.active{
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+    }
+}

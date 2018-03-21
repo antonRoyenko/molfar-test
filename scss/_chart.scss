@@ -1,0 +1,17 @@
+
+#graphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);;
+
+  .chart {
+    width: 70%;
+    background: #fff;
+
+    #myChart {
+      width: 500px;
+    }
+  }
+}

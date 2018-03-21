@@ -1,0 +1,19 @@
+#vertical-nav {
+  display: block;
+  position: fixed;
+  top: 200px;
+  left: 35px;
+  z-index: 99;
+  li {
+    transform: rotate(90deg);
+    padding-bottom: 10px;
+    a {
+      font-size: 20px;
+      transition: 0.5s;
+    }
+  }
+  .active a {
+    color: #e5165e;
+  }
+
+}

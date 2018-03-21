@@ -1,0 +1,58 @@
+#form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/img6.jpg);
+
+  &>button {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    background: #e5165e;
+    border-radius: 50%;
+    border: 0;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .modal-content {
+    color: #fff;
+    background-color: rgba(21%, 21%, 21%, 0.7);
+
+    .close {
+      color: #fff;
+      text-shadow: none;
+      opacity: 1;
+    }
+    .form-control {
+      margin-bottom: 15px;
+      border-radius: 0;
+      border: 1px solid #fff;
+      background-color: rgba(21%, 21%, 21%, 1);
+
+      ::-webkit-input-placeholder {
+        color: #fff;
+      }
+      ::-moz-placeholder {
+        color: #fff;
+      }
+      :-ms-input-placeholder {
+        color: #fff;
+      }
+      :-moz-placeholder {
+        color: #fff;
+      }
+    }
+
+    .btn.btn-primary {
+      border-radius: 0;
+      border: 1px solid #fff;
+      background-color: #363636;
+    }
+
+
+
+  }
+}
